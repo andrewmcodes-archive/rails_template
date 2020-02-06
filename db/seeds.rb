@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 10.times do |n|
-  Post.create!(title:  "Post title - ##{n}", content: "This is the content for the #{n.ordinalize} post.")
+  Post.create!(title: "Post title - ##{n}", content: "This is the content for the #{n.ordinalize} post.")
 end
