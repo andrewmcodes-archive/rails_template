@@ -15,6 +15,8 @@ cd project
 
 Navigate to `config/application.rb` and change `AndrewmcodesTemplateApp` to whatever the name of your app is.
 
+Do the same in `config/database.yml`
+
 ### Dependencies
 
 - Ruby 2.7
