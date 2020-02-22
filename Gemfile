@@ -25,10 +25,17 @@ group :development, :test do
 end
 
 group :development do
-  gem "listen", ">= 3.0.5", "< 3.2"
-  gem "web-console", ">= 3.3.0"
   gem "annotate"
+  gem "better_errors"
+  gem "binding_of_caller"
   gem "bullet"
+  gem "erb_lint"
+  gem "guard-livereload", "~> 2.5", require: false
+  gem "guard-webpacker"
+  gem "guard"
+  gem "listen", ">= 3.0.5", "< 3.2"
+  gem "rack-livereload"
+  gem "web-console", ">= 3.3.0"
 end
 
 group :test do
