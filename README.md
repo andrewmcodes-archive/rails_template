@@ -37,11 +37,17 @@ bundle && yarn
 ### Initialize the database
 
 ```shell
-rails db:create db:migrate db:seed
+bin/setup_db
 ```
 
 ## Serve
 
 ```shell
 rails s
+```
+
+If you want to run the webpack-dev-server and livereload, run this in another tab:
+
+```shell
+bin/guard
 ```
