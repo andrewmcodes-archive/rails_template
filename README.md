@@ -2,6 +2,8 @@
 
 # README
 
+My personal Rails starter template that I use for blog posts.
+
 ## Install
 
 ### Clone the repository
